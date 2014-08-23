@@ -18,7 +18,7 @@ def find_all_permuatations(word):
 
 def main():
     dictionary = {}
-    file = open("/Users/mohdirteza/Jumbleza/words.txt", "r")
+    file = open("words.txt", "r")
 
     print "Preparing ..."
     for word in file:
