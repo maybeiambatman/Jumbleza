@@ -1,7 +1,7 @@
 WORD JUMBLE SOLVER
 ==================
 
-This is a script that accepts any combination of letters as input and generates words for all possible combinations of those letters. Any combinatorics modules have been left out intentionally as a part of the design decisions. User can hit 'q' to quit the script at any moment.
+This is a script that accepts any group of letters as a string input and generates words for all possible combinations of those letters. Any combinatorics modules have been left out intentionally as a part of the design decisions. User can hit 'q' to quit the script at any moment.
 
 Implementation
 --------------
