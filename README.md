@@ -16,6 +16,8 @@ It yields key: dgo, value: [dog, god]
 
 2. find_all_permutations: This function outputs all possible permutations possible for the combination of letters it takes as input.
 
+NOTE: I have decided to use the EOWL word list as my dictionary. To learn more click [here](http://dreamsteep.com/projects/the-english-open-word-list.html)
+
 Contact Info
 ------------
 
