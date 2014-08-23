@@ -9,11 +9,11 @@ def check_word_jumble(word, dictionary, result_list):
             if result not in result_list:
                 result_list.append(result)
 
-def find_all_permuatations(word):
-    # This method finds all the permutations of the given string
+def find_all_combinations(word):
+    # This method finds all the combinations of the given string
     for i in range(len(word)):
         yield (word[i])
-        for j in find_all_permuatations(word[:i]+word[i+1:]):
+        for j in find_all_combinations(word[:i]+word[i+1:]):
             yield(word[i]+j)
 
 def main():
@@ -42,9 +42,9 @@ def main():
             play = False
             break
         else:
-            permutations = list(find_all_permuatations(input_word))
-            for permutation in permutations:
-                check_word_jumble(permutation, dictionary, result_list)
+            combinations = list(find_all_combinations(input_word))
+            for combination in combinations:
+                check_word_jumble(combination, dictionary, result_list)
 
         for item in result_list:
             print item
