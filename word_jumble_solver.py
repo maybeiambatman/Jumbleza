@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
-from sets import Set
-
 def check_word_jumble(word, dictionary, result_list):
     # Method that checks for all jumbled words and prints them out.
+    word = ''.join(sorted(word))
     if word in dictionary:
         results = dictionary[word]
         for result in results:
@@ -11,7 +10,7 @@ def check_word_jumble(word, dictionary, result_list):
                 result_list.append(result)
 
 def find_all_permuatations(word):
-    # This method finds all the permutations (with length greater than one) of the given string
+    # This method finds all the permutations of the given string
     for i in range(len(word)):
         yield (word[i])
         for j in find_all_permuatations(word[:i]+word[i+1:]):
@@ -19,7 +18,6 @@ def find_all_permuatations(word):
 
 def main():
     dictionary = {}
-    result_list = []
     file = open("/Users/mohdirteza/Jumbleza/words.txt", "r")
 
     print "Preparing ..."
@@ -36,6 +34,8 @@ def main():
     play = True
 
     while(play):
+        result_list = []
+
         input_word = raw_input("Enter your word or hit 'q' to quit: ")
         input_word = input_word.lower()
         if(input_word == "q"):
