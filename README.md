@@ -8,6 +8,8 @@ Implementation
 
 The program has two key functions:
 
+- At first it builds an anagram dictionary for more efficient lookup.
+
 - check_word_jumble: This function accepts a string as input and goes through the dictionary built by the program to yields all words key-ed to the sorted word.
 
 For example: if input is 'dog'.
