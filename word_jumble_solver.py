@@ -40,7 +40,6 @@ def build_dictionary():
 
 def main():
     dictionary = build_dictionary()
-    print dictionary['ader']
 
     play = True
 

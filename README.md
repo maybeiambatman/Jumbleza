@@ -20,7 +20,7 @@ It yields, {key: dgo, value: [dog, god]}
 
 -  find_all_combinations: This function outputs all possible combinations possible for the letters of the string it takes as input.
 
-NOTE: I have decided to use the EOWL word list as my dictionary. To learn more click [here](http://dreamsteep.com/projects/the-english-open-word-list.html)
+NOTE: I have decided to use the EOWL word list as my dictionary. To learn more click [here](http://dreamsteep.com/projects/the-english-open-word-list.html). Or, see words.txt for a copy of the full word list provided by EOWL.
 
 Contact Info
 ------------
