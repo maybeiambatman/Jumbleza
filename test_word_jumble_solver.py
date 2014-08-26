@@ -16,4 +16,4 @@ def test_build_dictionary():
 if __name__ == '__main__':
     test_find_all_combinations_dog()
     test_find_all_combinations_food()
-    test_build_dictionary(dictionary)
+    test_build_dictionary()
